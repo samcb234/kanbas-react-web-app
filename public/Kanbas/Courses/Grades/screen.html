@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $("#grades").load("index.html");
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#nav").load("../../Navigation/index.html");
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#courseNav").load("../Navigation/index.html");
+        });
+    </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td valign="top">
+                    <div id="nav"></div>
+                </td>
+                <td valign="top">
+                    <div id="courseNav"></div>
+                </td>
+                <td>
+                    <div id="grades"></div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

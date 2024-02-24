@@ -1,0 +1,70 @@
+<html>
+
+<body>
+    <form>
+        <select>
+            <option>SpeedGrader</option>
+        </select>
+    </form>
+    <br />
+    <form>
+        <h3>Assignment Name</h3>
+        <input placeholder="Assignment Name" /><br/>
+        <textarea cols="30" rows="4">Assignment Description</textarea><br/>
+        <p>Points</p>
+        <input id="points" type="number" placeholder="00"><br/>
+        <p>Display Grade As</p>
+        <select id="gradeType">
+            <option>Percentage</option>
+        </select><br/>
+        
+        <p>Online Entry Options</p>
+        <input type="checkbox" value="Text Entry" name="check-genre" id="radio-textEntry" />
+        <label for="radio-textEntry">Text Entry</label><br/>
+
+        <input type="checkbox" value="Website URL" name="check-genre" id="radio-websiteURL" />
+        <label for="radio-websiteURL">Website URL</label><br/>
+
+        <input type="checkbox" value="Media Recordings" name="check-genre" id="radio-mediaRecordings" />
+        <label for="radio-mediaRecordings">Media Recordings</label><br/>
+
+        <input type="checkbox" value="Student Annotation" name="check-genre" id="radio-studentAnnotation" />
+        <label for="radio-studentAnnotation">Student Annotation</label><br/>
+
+        <input type="checkbox" value="File Upload" name="check-genre" id="radio-fileUpload" />
+        <label for="radio-fileUpload">File Upload</label>
+        <br />
+
+        <p>Assign To</p>
+        <input id="assignTo" placeholder="Everyone"><br/>
+
+        <p>Due</p>
+        <input id="dueDate" type="date" placeholder="01/01/2025">
+        <br/>
+
+        <p>Available From</p>
+        <input id="availableFrom" type="date" placeholder="01/01/2025"><br/>
+
+        <p></p>
+        <input id="untilDate" type="date" placeholder="01/01/2025"><br/>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="../screen.html">
+                            <button type="button">Cancel</button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../screen.html">
+                            <button type="button">Save</button>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
